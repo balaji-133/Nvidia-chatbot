@@ -99,7 +99,9 @@ from langchain_core.prompts import ChatPromptTemplate
 # Posted by Bazzas
 # Retrieved 2026-01-17, License - CC BY-SA 4.0
 
-from langchain.chains.retrieval_qa.base import RetrievalQA
+# from langchain.chains.retrieval_qa.base import RetrievalQA
+
+from langchain_classic.chains.retrieval_qa.base import RetrievalQA
 
 
 from dotenv import load_dotenv
