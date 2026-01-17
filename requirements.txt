@@ -1,6 +1,9 @@
 streamlit
-python-dotenv
-langchain>=0.1.0
+langchain
 langchain-community
+langchain-core
 langchain-nvidia-ai-endpoints
+langchain-text-splitters
 faiss-cpu
+python-dotenv
+pypdf
