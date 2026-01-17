@@ -95,7 +95,12 @@ from langchain_core.prompts import ChatPromptTemplate
 
 # --- THE CORRECT IMPORT ---
 # This requires the 'langchain' package to be in requirements.txt
-from langchain.chains import RetrievalQA 
+# Source - https://stackoverflow.com/a
+# Posted by Bazzas
+# Retrieved 2026-01-17, License - CC BY-SA 4.0
+
+from langchain.chains.retrieval_qa.base import RetrievalQA
+
 
 from dotenv import load_dotenv
 
