@@ -84,18 +84,19 @@
 
 import streamlit as st
 import os
-import time
 import tempfile
+import time
 
 from langchain_nvidia_ai_endpoints import NVIDIAEmbeddings, ChatNVIDIA
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import ChatPromptTemplate
-try:
-    from langchain.chains import RetrievalQA
-except ImportError:
-    from langchain_community.chains import RetrievalQA
+
+# --- THE CORRECT IMPORT ---
+# This requires the 'langchain' package to be in requirements.txt
+from langchain.chains import RetrievalQA 
+
 from dotenv import load_dotenv
 
 # 1. Page Configuration (Must be the first line of Streamlit command)
