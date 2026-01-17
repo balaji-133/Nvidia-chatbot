@@ -1,9 +1,6 @@
 streamlit
 python-dotenv
 langchain
-langchain-core
 langchain-community
 langchain-nvidia-ai-endpoints
 faiss-cpu
-pypdf
-openai
