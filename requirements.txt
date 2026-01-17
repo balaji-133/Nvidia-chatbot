@@ -1,6 +1,6 @@
 streamlit
 python-dotenv
-langchain
+langchain>=0.1.0
 langchain-community
 langchain-nvidia-ai-endpoints
 faiss-cpu
